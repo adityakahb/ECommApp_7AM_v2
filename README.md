@@ -8,3 +8,6 @@ git clone <repo-link>
 git status
 git add index.html
 git commit -m "added index.html and modified README"
+git branch develop
+git push origin develop
+git checkout develop
