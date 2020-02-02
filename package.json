@@ -1,0 +1,22 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "An E-Commerce App",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "node-sass --include-path scss global.scss global.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityakahb/ECommApp_7AM_v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityakahb/ECommApp_7AM_v2/issues"
+  },
+  "homepage": "https://github.com/adityakahb/ECommApp_7AM_v2#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

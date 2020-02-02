@@ -5,7 +5,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i|Roboto:400,400i,700,700i&display=swap" rel="stylesheet">
         <link href="global.css" rel="stylesheet">
-        <title>Login</title>
+        <title>Register</title>
     </head>
     <body>
         <div class="main-content">
@@ -33,26 +33,41 @@
             <section class="siteform-comp">
                 <div class="siteform-content">
                     <div class="form-group">
-                        Don't have an account? <a href="register.html">Register now</a>.
+                        Already have an account? <a href="login.html">Login now</a>.
                     </div>
-                    <h1>Login</h1>
+                    <h1>Register</h1>
                     <form>
                         <div class="form-group">
-                            <label for="user_email">Enter your registered email</label>
+                            <label for="user_fname">Enter first name</label>
+                            <input id="user_fname" type="text" placeholder="First name">
+                        </div>
+                        <div class="form-group">
+                            <label for="user_lname">Enter last name</label>
+                            <input id="user_lname" type="text" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <label for="user_email">Enter email</label>
                             <input id="user_email" type="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <label for="user_password">Enter your password</label>
+                            <label for="user_password">Enter password</label>
                             <input id="user_password" type="password" placeholder="Password">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="primary">Login</button>
+                            <label for="user_confirm_password">Confirm password</label>
+                            <input id="user_confirm_password" type="password" placeholder="Confirm Password">
                         </div>
                         <div class="form-group">
-                            <label for="user_loggedin"><input type="checkbox" id="user_loggedin"> Keep me logged in</label>
+                            <label for="user_dob">Date of birth</label>
+                            <input id="user_dob" type="date" placeholder="Date of Birth">
                         </div>
                         <div class="form-group">
-                            <a href="forgot-password.html">Forgot Password?</a>
+                            <label for="user_new_offers"><input type="checkbox" id="user_new_offers"> Get new offers to your email id</label>
+                            <br>
+                            <label for="user_terms"><input type="checkbox" id="user_terms"> I agree to terms and conditions.</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="primary">Register</button>
                         </div>
                     </form>
                 </div>
